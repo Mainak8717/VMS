@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{7E10FDBD-22FB-4B0B-B68B-E7DE0CE40886}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VMS/Main.cs">
+    <Files>
+      <File FileName="VMS/AppDelegate.cs" Line="42" Column="46" />
+      <File FileName="VMS/LoginViewController.cs" Line="23" Column="75" />
+      <File FileName="VMS/SideMenuSample.cs" Line="94" Column="65" />
+      <File FileName="VMS/SampleTableView.cs" Line="24" Column="6" />
+      <File FileName="VMS/UISideMenuNavigationController.cs" Line="31" Column="36" />
+      <File FileName="VMS/UITableViewVibrantCell.cs" Line="26" Column="30" />
+      <File FileName="VMS/MenuHeaderCell.cs" Line="15" Column="33" />
+      <File FileName="VMS/Main.cs" Line="12" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.VMS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E48B4C87-6E51-449A-974B-D2D685100032" HideGettingStarted="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

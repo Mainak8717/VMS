@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9C2814E0000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E125AC1A0000000000000000 /* UIKit.framework */; };
+		42A068120000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08D02C60000000000000000 /* MapKit.framework */; };
+		BB7E4ED60000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D806B3C60000000000000000 /* Foundation.framework */; };
+		323789CB0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E49A8A0000000000000000 /* CoreGraphics.framework */; };
+		E64D34300000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F4D6C0000000000000000 /* Assets.xcassets */; };
+		7789C9F20000000000000000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEABE32E0000000000000000 /* LaunchScreen.storyboard */; };
+		20A0CB000000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892C25EC0000000000000000 /* Main.storyboard */; };
+		2AC1C91F0000000000000000 /* SideMenuSample.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1E3E25B0000000000000000 /* SideMenuSample.xib */; };
+		36F1209E0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE1339DA0000000000000000 /* Info.plist */; };
+		9131C7790000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1853E0B50000000000000000 /* Entitlements.plist */; };
+		410B9D240000000000000000 /* stars.png in Resources */ = {isa = PBXBuildFile; fileRef = C82DB6600000000000000000 /* stars.png */; };
+		52ADF91E0000000000000000 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D0125A0000000000000000 /* menu.png */; };
+		560C22A00000000000000000 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2E3BDC0000000000000000 /* LoginViewController.xib */; };
+		993769060000000000000000 /* cargo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 205982420000000000000000 /* cargo.jpg */; };
+		C1EF25750000000000000000 /* MenuHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49113EB10000000000000000 /* MenuHeaderCell.xib */; };
+		9FF3BC0A0000000000000000 /* MenuHeaderCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 2715D5460000000000000000 /* MenuHeaderCell.h */; };
+		4845B2410000000000000000 /* MenuHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF67CB7D0000000000000000 /* MenuHeaderCell.m */; };
+		D0B11A060000000000000000 /* LoginViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 57D333420000000000000000 /* LoginViewController.h */; };
+		4CED2A4C0000000000000000 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F43880000000000000000 /* LoginViewController.m */; };
+		2AF1C0E10000000000000000 /* SideMenuSample.h in Sources */ = {isa = PBXBuildFile; fileRef = B213DA1D0000000000000000 /* SideMenuSample.h */; };
+		73900BC20000000000000000 /* SideMenuSample.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB224FE0000000000000000 /* SideMenuSample.m */; };
+		1525AEF50000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 9C47C8310000000000000000 /* AppDelegate.h */; };
+		54F2CBD90000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC14E5150000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6847C5560000000000000000 /* VMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "VMS.app"; path = "VMS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E125AC1A0000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		A08D02C60000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		D806B3C60000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		50E49A8A0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		6D6F4D6C0000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		FEABE32E0000000000000000 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "LaunchScreen.storyboard"; path = "LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		892C25EC0000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
+		B1E3E25B0000000000000000 /* SideMenuSample.xib */ = {isa = PBXFileReference; name = "SideMenuSample.xib"; path = "SideMenuSample.xib"; sourceTree = "<group>"; };
+		BE1339DA0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		1853E0B50000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		C82DB6600000000000000000 /* stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stars.png"; path = "stars.png"; sourceTree = "<group>"; };
+		D9D0125A0000000000000000 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu.png"; path = "menu.png"; sourceTree = "<group>"; };
+		DD2E3BDC0000000000000000 /* LoginViewController.xib */ = {isa = PBXFileReference; name = "LoginViewController.xib"; path = "LoginViewController.xib"; sourceTree = "<group>"; };
+		205982420000000000000000 /* cargo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "cargo.jpg"; path = "cargo.jpg"; sourceTree = "<group>"; };
+		49113EB10000000000000000 /* MenuHeaderCell.xib */ = {isa = PBXFileReference; name = "MenuHeaderCell.xib"; path = "MenuHeaderCell.xib"; sourceTree = "<group>"; };
+		2715D5460000000000000000 /* MenuHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MenuHeaderCell.h"; path = "MenuHeaderCell.h"; sourceTree = "<group>"; };
+		CF67CB7D0000000000000000 /* MenuHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MenuHeaderCell.m"; path = "MenuHeaderCell.m"; sourceTree = "<group>"; };
+		57D333420000000000000000 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoginViewController.h"; path = "LoginViewController.h"; sourceTree = "<group>"; };
+		D40F43880000000000000000 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "LoginViewController.m"; path = "LoginViewController.m"; sourceTree = "<group>"; };
+		B213DA1D0000000000000000 /* SideMenuSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SideMenuSample.h"; path = "SideMenuSample.h"; sourceTree = "<group>"; };
+		FAB224FE0000000000000000 /* SideMenuSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SideMenuSample.m"; path = "SideMenuSample.m"; sourceTree = "<group>"; };
+		9C47C8310000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		DC14E5150000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93048BE80000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C2814E0000000000000000 /* UIKit.framework in Frameworks */,
+				42A068120000000000000000 /* MapKit.framework in Frameworks */,
+				BB7E4ED60000000000000000 /* Foundation.framework in Frameworks */,
+				323789CB0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884492A00000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				F5CB32890000000000000000 /* VMS */,
+				DA5988400000000000000000 /* Frameworks */,
+				36AF0A140000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36AF0A140000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6847C5560000000000000000 /* VMS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		DA5988400000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E125AC1A0000000000000000 /* UIKit.framework */,
+				A08D02C60000000000000000 /* MapKit.framework */,
+				D806B3C60000000000000000 /* Foundation.framework */,
+				50E49A8A0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		F5CB32890000000000000000 /* VMS */ = {
+			isa = PBXGroup;
+			children = (
+				9C47C8310000000000000000 /* AppDelegate.h */,
+				6D6F4D6C0000000000000000 /* Assets.xcassets */,
+				205982420000000000000000 /* cargo.jpg */,
+				1853E0B50000000000000000 /* Entitlements.plist */,
+				BE1339DA0000000000000000 /* Info.plist */,
+				FEABE32E0000000000000000 /* LaunchScreen.storyboard */,
+				57D333420000000000000000 /* LoginViewController.h */,
+				DD2E3BDC0000000000000000 /* LoginViewController.xib */,
+				892C25EC0000000000000000 /* Main.storyboard */,
+				D9D0125A0000000000000000 /* menu.png */,
+				2715D5460000000000000000 /* MenuHeaderCell.h */,
+				49113EB10000000000000000 /* MenuHeaderCell.xib */,
+				B213DA1D0000000000000000 /* SideMenuSample.h */,
+				B1E3E25B0000000000000000 /* SideMenuSample.xib */,
+				C82DB6600000000000000000 /* stars.png */,
+				E31F02700000000000000000 /* Supporting Files */,
+			);
+			name = "VMS";
+			sourceTree = "<group>";
+		};
+		E31F02700000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC14E5150000000000000000 /* AppDelegate.m */,
+				D40F43880000000000000000 /* LoginViewController.m */,
+				CF67CB7D0000000000000000 /* MenuHeaderCell.m */,
+				FAB224FE0000000000000000 /* SideMenuSample.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3A3B92E0000000000000000 /* VMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7636310000000000000000 /* Build configuration list for PBXNativeTarget "VMS" */;
+			buildPhases = (
+				2D4D76070000000000000000 /* Sources */,
+				93048BE80000000000000000 /* Frameworks */,
+				52A708F40000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VMS";
+			productName = "VMS";
+			productReference = 6847C5560000000000000000 /* VMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ACA35EE0000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 693614D20000000000000000 /* Build configuration list for PBXProject "VMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 884492A00000000000000000;
+			productRefGroup = 36AF0A140000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3A3B92E0000000000000000 /* VMS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52A708F40000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64D34300000000000000000 /* Assets.xcassets in Resources */,
+				7789C9F20000000000000000 /* LaunchScreen.storyboard in Resources */,
+				20A0CB000000000000000000 /* Main.storyboard in Resources */,
+				2AC1C91F0000000000000000 /* SideMenuSample.xib in Resources */,
+				36F1209E0000000000000000 /* Info.plist in Resources */,
+				9131C7790000000000000000 /* Entitlements.plist in Resources */,
+				410B9D240000000000000000 /* stars.png in Resources */,
+				52ADF91E0000000000000000 /* menu.png in Resources */,
+				560C22A00000000000000000 /* LoginViewController.xib in Resources */,
+				993769060000000000000000 /* cargo.jpg in Resources */,
+				C1EF25750000000000000000 /* MenuHeaderCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4D76070000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF3BC0A0000000000000000 /* MenuHeaderCell.h in Sources */,
+				4845B2410000000000000000 /* MenuHeaderCell.m in Sources */,
+				D0B11A060000000000000000 /* LoginViewController.h in Sources */,
+				4CED2A4C0000000000000000 /* LoginViewController.m in Sources */,
+				2AF1C0E10000000000000000 /* SideMenuSample.h in Sources */,
+				73900BC20000000000000000 /* SideMenuSample.m in Sources */,
+				1525AEF50000000000000000 /* AppDelegate.h in Sources */,
+				54F2CBD90000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		345C359A0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		AD3A1C5E0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "VMS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		693614D20000000000000000 /* Build configuration list for PBXProject "VMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345C359A0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		AE7636310000000000000000 /* Build configuration list for PBXNativeTarget "VMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3A1C5E0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ACA35EE0000000000000000 /* Project object */;
+}

@@ -1,0 +1,11 @@
+/Users/Mainak/Projects/VMS/VMS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/Mainak/Projects/VMS/VMS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/Mainak/Projects/VMS/VMS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
+/Users/Mainak/Projects/VMS/VMS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/Mainak/Projects/VMS/VMS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/stars.png
+/Users/Mainak/Projects/VMS/VMS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/menu.png
+/Users/Mainak/Projects/VMS/VMS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
+/Users/Mainak/Projects/VMS/VMS/bin/iPhoneSimulator/Debug/VMS.pdb
+/Users/Mainak/Projects/VMS/VMS/bin/iPhoneSimulator/Debug/VMS.exe
+/Users/Mainak/Projects/VMS/VMS/obj/iPhoneSimulator/Debug/VMS.exe
+/Users/Mainak/Projects/VMS/VMS/obj/iPhoneSimulator/Debug/VMS.pdb
